@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Login
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/gelato/gelato.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.2/jquery.mobile.structure-1.4.2.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.9.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.2/jquery.mobile-1.4.2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <div data-role="page" style="min-height:480px;" dsid="Login" id="Login" class="type-interior"
+        data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="Login_mobileheader" class="Login_mobileheader">
+                <h1 dsid="mobileheader">
+                    Login
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Login_mobilecontainer" name="mobilecontainer" class="Login_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="b">
+                <link href="Login.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Login.js">
+                </script>
+                <!-- mobileimage_16 -->
+                <img class="Login_mobileimage_16" src="files/views/assets/image/near12.png" id="Login_mobileimage_16"
+                dsid="mobileimage_16" name="mobileimage_16" />
+                <!-- mobileimage_20 -->
+                <img class="Login_mobileimage_20" src="files/views/assets/image/near13.png" id="Login_mobileimage_20"
+                dsid="mobileimage_20" name="mobileimage_20" />
+                <!-- spacer_13 -->
+                <div id="Login_spacer_13" data-role="appery_spacer" dsid="spacer_13" class='mobilespacer Login_spacer_13'>
+                </div>
+                <!-- mobilelabel_10 -->
+                <div name="mobilelabel_10" id="Login_mobilelabel_10" dsid="mobilelabel_10" data-role="appery_label"
+                class="Login_mobilelabel_10">
+                    Student No.
+                </div>
+                <!-- mobiletextinput_9 -->
+                <div data-role="fieldcontain" class="Login_mobiletextinput_9 ">
+                    <input type="text" name="mobiletextinput_9" dsid="mobiletextinput_9" value="" placeholder=""
+                    id="Login_mobiletextinput_9" tabindex="2" multiple data-theme="b" class="Login_mobiletextinput_9"
+                    />
+                </div>
+                <!-- mobilelabel_11 -->
+                <div name="mobilelabel_11" id="Login_mobilelabel_11" dsid="mobilelabel_11" data-role="appery_label"
+                class="Login_mobilelabel_11">
+                    Password
+                </div>
+                <!-- mobiletextinput_12 -->
+                <div data-role="fieldcontain" class="Login_mobiletextinput_12 ">
+                    <input type="password" name="mobiletextinput_12" dsid="mobiletextinput_12" value=""
+                    placeholder="" id="Login_mobiletextinput_12" tabindex="3" multiple data-theme="b"
+                    class="Login_mobiletextinput_12" />
+                </div>
+                <!-- spacer_21 -->
+                <div id="Login_spacer_21" data-role="appery_spacer" dsid="spacer_21" class='mobilespacer Login_spacer_21'>
+                </div>
+                <!-- mobilebutton_14 -->
+                <a data-role="button" name="mobilebutton_14" dsid="mobilebutton_14" class="Login_mobilebutton_14"
+                id="Login_mobilebutton_14" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                data-mini="false" data-theme="b" tabindex="4">
+                Login
+                </a>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="Login_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="Login_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Start_classsusp
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/gelato/gelato.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.2/jquery.mobile.structure-1.4.2.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.9.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.2/jquery.mobile-1.4.2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <div data-role="page" style="min-height:480px;" dsid="Start_classsusp" id="Start_classsusp"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="Start_classsusp_mobileheader" class="Start_classsusp_mobileheader">
+                <h1 dsid="mobileheader">
+                    UST NEAR
+                </h1>
+                <!-- mobilenavbar_94 -->
+                <div data-role="navbar" id="Start_classsusp_mobilenavbar_94" name="mobilenavbar_94"
+                dsid="mobilenavbar_94" class="Start_classsusp_mobilenavbar_94" data-theme="b" style="position: relative;">
+                    <ul>
+                        <!-- mobilenavbaritem_95 -->
+                        <li>
+                            <a data-theme="b" class="ui-btn-active ui-state-persist" data-icon="star" id="Start_classsusp_mobilenavbaritem_95"
+                            dsid="mobilenavbaritem_95" name="mobilenavbaritem_95">
+                            Suspension
+                            </a>
+                        </li>
+                        <!-- mobilenavbaritem_96 -->
+                        <li>
+                            <a data-theme="b" data-icon="star" id="Start_classsusp_mobilenavbaritem_96" dsid="mobilenavbaritem_96"
+                            name="mobilenavbaritem_96">
+                            News
+                            </a>
+                        </li>
+                        <!-- mobilenavbaritem_97 -->
+                        <li>
+                            <a data-theme="b" data-icon="star" id="Start_classsusp_mobilenavbaritem_97" dsid="mobilenavbaritem_97"
+                            name="mobilenavbaritem_97">
+                            Organizations
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- mobilebutton_98 -->
+                <a data-role="button" name="mobilebutton_98" dsid="mobilebutton_98" class="Start_classsusp_mobilebutton_98 ui-btn-right"
+                id="Start_classsusp_mobilebutton_98" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                data-inline='true' data-mini='true' data-theme="b" tabindex="14">
+                Settings
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Start_classsusp_mobilecontainer" name="mobilecontainer"
+            class="Start_classsusp_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="b">
+                <link href="Start_classsusp.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Start_classsusp.js">
+                </script>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="Start_classsusp_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="Start_classsusp_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

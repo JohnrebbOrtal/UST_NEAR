@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Settings
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/gelato/gelato.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.2/jquery.mobile.structure-1.4.2.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.9.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.2/jquery.mobile-1.4.2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <div data-role="page" style="min-height:480px;" dsid="Settings" id="Settings" class="type-interior"
+        data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="Settings_mobileheader" class="Settings_mobileheader">
+                <h1 dsid="mobileheader">
+                    Settings
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Settings_mobilecontainer" name="mobilecontainer" class="Settings_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="b">
+                <link href="Settings.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Settings.js">
+                </script>
+                <!-- mobilelabel_3 -->
+                <div name="mobilelabel_3" id="Settings_mobilelabel_3" dsid="mobilelabel_3" data-role="appery_label"
+                class="Settings_mobilelabel_3">
+                    Get announcements from:
+                </div>
+                <div data-role="fieldcontain" class="Settings_mobilecheckboxgroup_4" id="Settings_mobilecheckboxgroup_4"
+                dsid="mobilecheckboxgroup_4">
+                    <fieldset data-role="controlgroup" data-theme="b" class="">
+                        <span dsid="mobilecheckbox_5" class="Settings_mobilecheckbox_5" name="mobilecheckbox_5">
+                            <input type="checkbox" name="mobilecheckboxgroup_4" id="Settings_mobilecheckbox_5"
+                            tabindex="2" value="Item 1" />
+                            <label id="Settings_mobilecheckbox_5_label" for="Settings_mobilecheckbox_5">
+                                Administration Offices
+                            </label>
+                        </span>
+                        <span dsid="mobilecheckbox_6" class="Settings_mobilecheckbox_6" name="mobilecheckbox_6">
+                            <input type="checkbox" name="mobilecheckboxgroup_4" id="Settings_mobilecheckbox_6"
+                            tabindex="2" value="Item 2" />
+                            <label id="Settings_mobilecheckbox_6_label" for="Settings_mobilecheckbox_6">
+                                College Offices
+                            </label>
+                        </span>
+                        <span dsid="mobilecheckbox_7" class="Settings_mobilecheckbox_7" name="mobilecheckbox_7">
+                            <input type="checkbox" name="mobilecheckboxgroup_4" id="Settings_mobilecheckbox_7"
+                            tabindex="2" value="Item 3" />
+                            <label id="Settings_mobilecheckbox_7_label" for="Settings_mobilecheckbox_7">
+                                Student Organizations
+                            </label>
+                        </span>
+                    </fieldset>
+                </div>
+                <!-- spacer_25 -->
+                <div id="Settings_spacer_25" data-role="appery_spacer" dsid="spacer_25" class='mobilespacer Settings_spacer_25'>
+                </div>
+                <!-- mobilelabel_24 -->
+                <div name="mobilelabel_24" id="Settings_mobilelabel_24" dsid="mobilelabel_24" data-role="appery_label"
+                class="Settings_mobilelabel_24">
+                    Account
+                </div>
+                <!-- mobilelabel_27 -->
+                <div name="mobilelabel_27" id="Settings_mobilelabel_27" dsid="mobilelabel_27" data-role="appery_label"
+                class="Settings_mobilelabel_27">
+                    Ortal, Johnrebb Cabral
+                </div>
+                <!-- mobilelabel_30 -->
+                <div name="mobilelabel_30" id="Settings_mobilelabel_30" dsid="mobilelabel_30" data-role="appery_label"
+                class="Settings_mobilelabel_30">
+                    2012042045
+                </div>
+                <!-- mobilelabel_29 -->
+                <div name="mobilelabel_29" id="Settings_mobilelabel_29" dsid="mobilelabel_29" data-role="appery_label"
+                class="Settings_mobilelabel_29">
+                    Institute of Information and Computing Sciences
+                </div>
+                <!-- spacer_32 -->
+                <div id="Settings_spacer_32" data-role="appery_spacer" dsid="spacer_32" class='mobilespacer Settings_spacer_32'>
+                </div>
+                <!-- mobilebutton_31 -->
+                <a data-role="button" name="mobilebutton_31" dsid="mobilebutton_31" class="Settings_mobilebutton_31"
+                id="Settings_mobilebutton_31" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                data-mini="false" data-theme="b" tabindex="7">
+                Log out
+                </a>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="Settings_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="Settings_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

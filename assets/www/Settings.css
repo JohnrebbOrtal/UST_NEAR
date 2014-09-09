@@ -1,0 +1,84 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.Settings_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_3 */
+.Settings_mobilelabel_3 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilecheckboxgroup_4 */
+.Settings_mobilecheckboxgroup_4 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilecheckbox_5 */
+.Settings_mobilecheckbox_5 {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
+/* mobilecheckbox_6 */
+.Settings_mobilecheckbox_6 {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
+/* mobilecheckbox_7 */
+.Settings_mobilecheckbox_7 {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
+/* spacer_25 */
+.Settings_spacer_25 {
+	width: 260px; height: 30px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_24 */
+.Settings_mobilelabel_24 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_27 */
+.Settings_mobilelabel_27 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_30 */
+.Settings_mobilelabel_30 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_29 */
+.Settings_mobilelabel_29 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_32 */
+.Settings_spacer_32 {
+	width: 260px; height: 24px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilebutton_31 */
+#Settings_mobilebutton_31 {
+
+}
+.ui-btn.Settings_mobilebutton_31 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.Settings_mobilefooter {
+	min-height:38px;
+}

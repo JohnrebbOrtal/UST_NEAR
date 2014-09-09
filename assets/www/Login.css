@@ -1,0 +1,64 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.Login_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobileimage_16 */
+.Login_mobileimage_16 {
+	margin: 4px 0px 4px 0px;
+	width: 248px; height: 158px;
+	display: block;
+}
+/* mobileimage_20 */
+.Login_mobileimage_20 {
+	margin: 4px 0px 4px 0px;
+	width: 332px; height: 53px;
+	display: block;
+}
+/* spacer_13 */
+.Login_spacer_13 {
+	width: 260px; height: 8px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_10 */
+.Login_mobilelabel_10 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_9 */
+.Login_mobiletextinput_9 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_11 */
+.Login_mobilelabel_11 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_12 */
+.Login_mobiletextinput_12 {
+	margin: 4px 0px 4px 0px;
+}
+/* spacer_21 */
+.Login_spacer_21 {
+	width: 260px; height: 8px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilebutton_14 */
+#Login_mobilebutton_14 {
+
+}
+.ui-btn.Login_mobilebutton_14 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.Login_mobilefooter {
+	min-height:38px;
+}
